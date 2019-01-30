@@ -1,4 +1,3 @@
-import { IComponentController, IComponentOptions } from 'angular';
 import {Component} from '@angular/core';
 
 /**
@@ -9,18 +8,7 @@ import {Component} from '@angular/core';
   templateUrl: 'tab-group-basic-example.html',
   styleUrls: ['tab-group-basic-example.css'],
 })
-export class ChildTwoController implements IComponentController { 
-    constructor() { }
-
-}
-
-const childTwoComponent: IComponentOptions = {
-
-    controller: ChildTwoController,
-    template: require('./child-two.component.html') as string
-};
-
-export default childTwoComponent;
+export class TabGroupBasicExample {}
 
 
 /**  Copyright 2018 Google Inc. All Rights Reserved.

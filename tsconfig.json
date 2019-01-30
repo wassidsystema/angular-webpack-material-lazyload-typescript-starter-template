@@ -7,6 +7,9 @@
         "noUnusedParameters": true,
         "noUnusedLocals": true,
         "skipLibCheck": true,
+        "experimentalDecorators": true,
+        "target": "es5",
+        "allowJs": true,
         "typeRoots": [
             "node_modules/@types"
         ]

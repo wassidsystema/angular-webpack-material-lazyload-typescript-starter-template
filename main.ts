@@ -9,7 +9,7 @@ import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {DemoMaterialModule} from './material-module';
 
-import {TabGroupBasicExample} from './app/tab-group-basic-example';
+import {TabGroupBasicExample} from './app/components/tab-group-basic-example';
 
 @NgModule({
   imports: [
